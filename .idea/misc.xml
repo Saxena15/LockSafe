@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/add_btn.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/add_btn_res.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/bottom_sheet_la.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/bottom_sheet_lay.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/decorative_dialog_menu.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/def_img.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/form_fields.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/gmail_icon.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/ic_copy.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/item_res.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/menu.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/r_copy_btn_res.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/search_bar.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/search_ic.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/showic.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/signin_btn_res.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/social_dp_res.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/sort_btn_squircicle.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/sortbtn.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/drawable/text_enhac.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/layout/activity_login.xml" value="0.72" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/layout/bottom_sheet_lay.xml" value="0.264" />
+        <entry key="..\:/Users/Akash/AndroidStudioProjects/LockSafe/app/src/main/res/layout/rv_item.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

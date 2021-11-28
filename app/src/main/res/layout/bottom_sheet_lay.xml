@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_lay"
+    android:fontFamily="sans-serif-condensed-light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/deco"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/decorative_dialog_menu" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Title"
+        android:textColor="@color/purplishViolet"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/title_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form_fields"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Enter your title here"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#262626"
+        android:textColorHint="#635D5D"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Email/Username"
+        android:textColor="@color/purplishViolet"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form_fields"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Enter Your Email or username"
+        android:textAlignment="center"
+        android:textColor="#262626"
+        android:textColorHint="#635D5D"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Password"
+        android:textColor="@color/purplishViolet"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/form_fields"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#262626"
+        android:textColorHint="#635D5D"/>
+
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_marginTop="10dp"
+       />
+
+
+</LinearLayout>

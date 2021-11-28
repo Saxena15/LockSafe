@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1009535117629",
+    "project_id": "locksafe-7775b",
+    "storage_bucket": "locksafe-7775b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009535117629:android:c9ce7d06ae9cc0ff3a3d54",
+        "android_client_info": {
+          "package_name": "com.saxena.locksafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009535117629-fss4vvdnb1hbgile903b4ckkpvchi1kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmb2EeZ21a75k41-onfM2ns1p1BzDS6fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009535117629-fss4vvdnb1hbgile903b4ckkpvchi1kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

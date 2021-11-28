@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purplishViolet"
+    tools:context=".MainActivity"
+    android:fontFamily="sans-serif-condensed-light">
+    <TextView
+        android:id="@+id/snap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awww snap :'(  nothing to show "
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/sort_btn_squircicle"
+            android:src="@drawable/sortbtn"
+            android:layout_centerVertical="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="#fafafa" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/rl1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/search_bar"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint='Search "passwords"'
+            android:paddingLeft="10dp"
+            android:textColor="#262626"
+            android:textColorHighlight="#fafafa"
+            android:textColorHint="#4A4343" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="#fafafa"
+            android:src="@drawable/search_ic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tags"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/socials"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+
+
+        <ImageButton
+            android:id="@+id/moreOpts"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/add_btn_res"
+            android:src="@drawable/add_btn"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
